@@ -6,6 +6,51 @@ INTRODUÇÃO
 As permissões foram criadas para garantir a segurança do usuário e evitar que aplicativos maliciosos tivessem acesso fácil a sensores com potencial de colocar informações pessoais em perigo, a localização, um dos sensores mais utilizados é um ótimo exemplo da razão pelo qual é essencial que existam permissões, já que a facilidade de acesso a uma informação com esse grau de sigilo poderia resultar em diversos problemas.
 Este trabalho, além de ter o objetivo de ressaltar essa importância, também tem a finalidade de apresentar as principais permissões e sensores disponíveis para Android, além dos tipos de retorno para cada sensor e lista das Actions utilizadas para cada permissão.
 
+OQUE É PERMISSOES?
+
+Permissoes autorizam a aplicaçao a obter dados e informaçoes do usuario para o funcionamento correto, e com isso existem varias como:
+
+Permissões normais:
+Consiste em a intalaçao acessar dados que vão alem do sandbox apresentamdo pouco risco a privacidade.
+
+Permissões da instalação:
+Consiste em a instalaçao obter acesso limitado a dados restritos ou execute açoes restritas, que afetam minimamente os outros aplicativos.
+
+Permissões de assinatura:
+Consiste no sistema do celular dar uma permissao a um aplicativo se ele for pertencente ao mesmo fabricante do aplicativo ou sistema operacional.
+
+Permissões de execução:
+Consiste em a intalação  acessar dados restritos que afetaram o sistema significativamente e outros apps.
+
+Permissões especiais:
+Consiste em uma permissao que so pode ser dada pelo fabricante original do sistema operacional.
+
+PRINCIPAIS PERMISSÕES PADRÕES:
+
+ACCESS_FINE_LOCATION - Permite que a aplicação mostre o localização exata com base nos provedores de local disponivel.
+
+CAMERA - Permite que a aplicação tenha acesse a sao camera.
+
+WRITE_EXTERNAL_STORAGE - Serve para todas as versoes do android, permite acesso de gravação a tudo o que o SDK chama de armazenamento externo 
+
+MANAGE_EXTERNAL_STORAGE - Somente para android superior ao 11, permite acesso de gravação a quase tudo o que o SDK chama de armazenamento externo, fará com que sua aplicação seja banida de distribuidoras (Play Store ou App Store) ao menos que uma justificativa para esa permissao 
+
+Permissão de Contatos (READ_CONTACTS)
+
+Permissão de Chamada (CALL_PHONE)
+
+USO EM INTENTS IMPLICITAS PRINCIPAIS
+
+Ação de Visualização (ACTION_VIEW)
+
+Ação de Compartilhamento (ACTION_SEND)
+
+Ação de Escolha (ACTION_PICK)
+
+Ação de Ligação (ACTION_CALL)
+
+Ação de Reprodução de Mídia (ACTION_PLAY)
+
 O QUE SÃO SENSORES?
 
 Sensores são recursos de um dispositivo que detectam tipos de estímulos específicos e retornam um resultado que pode ou não desencadear uma ação a depender do tipo de estímulo e se o programa que solicitou o sensor determinou uma consequência ou apenas a visualização.
@@ -45,8 +90,7 @@ TYPE_LINEAR_ACCELERATION baseado em software ou hardware, utiliza o acelerômetr
 ````
 TYPE_ROTATION_VECTOR baseado em software ou hardware, utiliza o giroscópio, retornado a rotação do dispositivo nos 3 eixos em forma de vetor.
 ````
-````
-````
+
 SENSORES AMBIENTAIS:
 ````
 TYPE_AMBIENT_TEMPERATURE baseado em hardware, utiliza o termômetro, retornando a temperatura do ambiente em graus Celsius.
@@ -65,7 +109,6 @@ TYPE_TEMPERATURE baseado em hardware, utiliza o termômetro, retornando a temper
 ````
 SENSORES DE POSIÇÃO:
 ````
-
 TYPE_MAGNETIC_FIELD baseado em hardware, utiliza o sensor de campo geomagnético para medir o campo geomagnético do ambiente nos 3 eixos e criar uma bussola. Retorna o valor em μT(micro-Tesla), unidade de medida utilizada para densidade de fluxo magnético.
 ````
 ````
@@ -77,7 +120,11 @@ TYPE_PROXIMITY baseado em hardware, utiliza o sensor de campo geomagnético, med
 CONCLUSÃO
 
 BIBLIOGRAFIA
+sensores:
 https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br
 https://developer.android.com/training/permissions/requesting?hl=pt-br
 https://developer.android.com/guide/topics/permissions/overview?hl=pt-br
 https://developer.android.com/guide/topics/sensors?hl=pt-br
+
+permissoes:
+https://developers.google.com/maps/documentation/android-sdk/location?hl=pt-br
