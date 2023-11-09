@@ -120,11 +120,16 @@ TYPE_PROXIMITY baseado em hardware, utiliza o sensor de campo geomagnético, med
 CONCLUSÃO
 
 BIBLIOGRAFIA
+
 sensores:
+
 https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br
 https://developer.android.com/training/permissions/requesting?hl=pt-br
 https://developer.android.com/guide/topics/permissions/overview?hl=pt-br
 https://developer.android.com/guide/topics/sensors?hl=pt-br
 
 permissoes:
+
 https://developers.google.com/maps/documentation/android-sdk/location?hl=pt-br
+https://www.androidpro.com.br/blog/armazenamento-de-dados/armazenar-dados-de-aplicativos-localmente/
+https://stackoverflow.com/questions/73909410/manage-external-storage-vs-write-external-storage
