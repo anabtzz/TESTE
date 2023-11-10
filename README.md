@@ -1,4 +1,4 @@
-# Trabalho de sensores e permissoes 
+<h1 align=cente> Trabalho de sensores e permissoes </h1>
 
 <h1><center>INTRODUÇÃO</center></h1>
 
