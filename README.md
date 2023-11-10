@@ -45,17 +45,21 @@ READ_CONTACTS - Permite que a aplicação tenha acesso aos seus contatos, mostra
 CALL_PHONE - Permite que a aplicação reconheça um numero de telefone e te direcione para o aplicativo telefone para fazer uma ligação.
 ````
 USO EM INTENTS IMPLICITAS PRINCIPAIS: 
-
+````
 Ação de Visualização (ACTION_VIEW)
-
+````
+````
 Ação de Compartilhamento (ACTION_SEND)
-
+````
+````
 Ação de Escolha (ACTION_PICK)
-
+````
+````
 Ação de Ligação (ACTION_CALL)
-
+````
+````
 Ação de Reprodução de Mídia (ACTION_PLAY)
-
+````
 O QUE SÃO SENSORES?
 
 Sensores são recursos de um dispositivo que detectam tipos de estímulos específicos e retornam um resultado que pode ou não desencadear uma ação a depender do tipo de estímulo e se o programa que solicitou o sensor determinou uma consequência ou apenas a visualização.
