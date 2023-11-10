@@ -1,12 +1,11 @@
-# TESTE
 # Trabalho de sensores e permissoes 
 
-INTRODUÇÃO
+<h2>INTRODUÇÃO</h2>
 
 As permissões foram criadas para garantir a segurança do usuário e evitar que aplicativos maliciosos tivessem acesso fácil a sensores com potencial de colocar informações pessoais em perigo, a localização, um dos sensores mais utilizados é um ótimo exemplo da razão pelo qual é essencial que existam permissões, já que a facilidade de acesso a uma informação com esse grau de sigilo poderia resultar em diversos problemas.
 Este trabalho, além de ter o objetivo de ressaltar essa importância, também tem a finalidade de apresentar as principais permissões e sensores disponíveis para Android, além dos tipos de retorno para cada sensor e lista das Actions utilizadas para cada permissão.
 
-OQUE É PERMISSOES?
+<h2>OQUE É PERMISSOES?</h2>
 
 Permissoes autorizam a aplicaçao a obter dados e informaçoes do usuario para o funcionamento correto, e com isso existem varias como:
 
@@ -60,7 +59,7 @@ ACTION_CALL - É uma intent que permite te fazer uma ligação do numero colocad
 ````
 ACTION_PLAY - É uma intent que permite a reprodução da midia enviada.
 ````
-O QUE SÃO SENSORES?
+<h2>O QUE SÃO SENSORES?</h2>
 
 Sensores são recursos de um dispositivo que detectam tipos de estímulos específicos e retornam um resultado que pode ou não desencadear uma ação a depender do tipo de estímulo e se o programa que solicitou o sensor determinou uma consequência ou apenas a visualização.
 
@@ -127,18 +126,14 @@ TYPE_ORIENTATION baseado em software, mede os graus de rotação nos 3 eixos e d
 TYPE_PROXIMITY baseado em hardware, utiliza o sensor de campo geomagnético, mede a proximidade da tela do dispositivo em comparação a um campo magnético, objeto. Esse sensor é comumente utilizado para detectar se o smartphone está próximo ao ouvido de uma pessoa durante uma ligação e a deligar a tela.
 ````
 CONCLUSÃO
+CONCLUSÃO
+
+Neste trabalho foi apresentado a importância das permissões para utilização dos sensores compatíveis com Android, mas o principal objetivo foi listar e explicar a finalidade de cada tipo de permissão e sensor, além de exemplificar com usos cotidianos que se tornaram tão comuns que podem passar despercebido.
+Outra conclusão essencial que pode ser tirada dessa pesquisa foi o quão útil a criação e utilização desses sensores se tornou para os dispositivos, já que atualmente grande parte das ações que passaram do físico para o digital com o proposito de aumentar a eficiência e facilidade dependem desses sensores. Um grande exemplo disso é o aplicativo Google Maps ou qualquer outro programa que utilize o sensor de campo geomagnético, giroscópio e acelerômetro para determinar a localização, direção e movimentação do dispositivo em comparação ao ambiente, assim podendo guiar o usuário a uma rota especifica baseada na replica digital do mapa real dos lugares. Além da popular “Navegação por Gestos” citada diversas vezes como exemplo prático dos sensores ao decorrer do trabalho, mesmo que existam falhas nessa tecnologia ou ela possa não ser tão útil quanto a localização, é interessante observar a variedade de funcionalidades que os sensores podem desempenhar.
+
 
 BIBLIOGRAFIA
-
-sensores:
-
 https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br
 https://developer.android.com/training/permissions/requesting?hl=pt-br
 https://developer.android.com/guide/topics/permissions/overview?hl=pt-br
 https://developer.android.com/guide/topics/sensors?hl=pt-br
-
-permissoes:
-
-https://developers.google.com/maps/documentation/android-sdk/location?hl=pt-br
-https://www.androidpro.com.br/blog/armazenamento-de-dados/armazenar-dados-de-aplicativos-localmente/
-https://stackoverflow.com/questions/73909410/manage-external-storage-vs-write-external-storage
