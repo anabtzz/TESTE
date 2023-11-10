@@ -26,19 +26,24 @@ Permissões especiais:
 Consiste em uma permissao que so pode ser dada pelo fabricante original do sistema operacional.
 
 PRINCIPAIS PERMISSÕES PADRÕES:
-
+````
 ACCESS_FINE_LOCATION - Permite que a aplicação mostre o localização exata com base nos provedores de local disponivel.
-
+````
+````
 CAMERA - Permite que a aplicação tenha acesse a sua camera.
-
+````
+````
 WRITE_EXTERNAL_STORAGE - Serve para todas as versoes do android, permite acesso de gravação a tudo o que o SDK chama de armazenamento externo 
-
+````
+````
 MANAGE_EXTERNAL_STORAGE - Somente para android superior ao 11, permite acesso de gravação a quase tudo o que o SDK chama de armazenamento externo, fará com que sua aplicação seja banida de distribuidoras (Play Store ou App Store) ao menos que uma justificativa para esa permissao 
-
+````
+````
 READ_CONTACTS - Permite que a aplicação tenha acesso aos seus contatos, mostrando por exemplo quem ultiliza o meus aplicativo.
-
+````
+````
 CALL_PHONE - Permite que a aplicação reconheça um numero de telefone e te direcione para o aplicativo telefone para fazer uma ligação.
-
+````
 USO EM INTENTS IMPLICITAS PRINCIPAIS: 
 
 Ação de Visualização (ACTION_VIEW)
