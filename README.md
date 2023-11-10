@@ -7,20 +7,26 @@ Este trabalho, além de ter o objetivo de ressaltar essa importância, também t
 
 <h2>OQUE É PERMISSOES?</h2>
 
-Permissoes autorizam a aplicaçao a obter dados e informaçoes do usuario para o funcionamento correto, e com isso existem varias como:
+Permissoes autorizam a aplicaçao a obter dados e informaçoes do usuario para o funcionamento correto.
 
+<h3>CATEGORIAS DAS PERMISSOES:</h3>
+
+1.1
 Permissões normais:
 Consiste em a intalaçao acessar dados que vão alem do sandbox apresentamdo pouco risco a privacidade.
 
+1.2
 Permissões da instalação:
 Consiste em a instalaçao obter acesso limitado a dados restritos ou execute açoes restritas, que afetam minimamente os outros aplicativos.
 
+1.3
 Permissões de assinatura:
 Consiste no sistema do celular dar uma permissao a um aplicativo se ele for pertencente ao mesmo fabricante do aplicativo ou sistema operacional.
 
-Permissões de execução:
+1.4Permissões de execução:
 Consiste em a intalação  acessar dados restritos que afetaram o sistema significativamente e outros apps.
 
+1.5
 Permissões especiais:
 Consiste em uma permissao que so pode ser dada pelo fabricante original do sistema operacional.
 
