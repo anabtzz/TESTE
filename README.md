@@ -46,19 +46,19 @@ CALL_PHONE - Permite que a aplicação reconheça um numero de telefone e te dir
 ````
 USO EM INTENTS IMPLICITAS PRINCIPAIS: 
 ````
-Ação de Visualização (ACTION_VIEW)
+ACTION_VIEW - É uma intent aonde é usada para abrir/exibir dados, geralmente usada para abrir uma url.
 ````
 ````
-Ação de Compartilhamento (ACTION_SEND)
+ACTION_SEND - É uma intent usada prar compartilhar dados com outras aplicações, como mandar uma mensagem ou arquivos para outros aplicativos.
 ````
 ````
-Ação de Escolha (ACTION_PICK)
+ACTION_PICK - É uma intent usada para ações ou operações específicas num contexto determinado.
 ````
 ````
-Ação de Ligação (ACTION_CALL)
+ACTION_CALL - É uma intent que permite te fazer uma ligação do numero colocado na intent.
 ````
 ````
-Ação de Reprodução de Mídia (ACTION_PLAY)
+ACTION_PLAY - É uma intent que permite a reprodução da midia enviada.
 ````
 O QUE SÃO SENSORES?
 
