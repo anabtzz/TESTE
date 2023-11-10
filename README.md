@@ -1,6 +1,6 @@
 # Trabalho de sensores e permissoes 
 
-<h2>INTRODUÇÃO</h2>
+<h1>INTRODUÇÃO</h1>
 
 As permissões foram criadas para garantir a segurança do usuário e evitar que aplicativos maliciosos tivessem acesso fácil a sensores com potencial de colocar informações pessoais em perigo, a localização, um dos sensores mais utilizados é um ótimo exemplo da razão pelo qual é essencial que existam permissões, já que a facilidade de acesso a uma informação com esse grau de sigilo poderia resultar em diversos problemas.
 Este trabalho, além de ter o objetivo de ressaltar essa importância, também tem a finalidade de apresentar as principais permissões e sensores disponíveis para Android, além dos tipos de retorno para cada sensor e lista das Actions utilizadas para cada permissão.
@@ -24,7 +24,8 @@ Consiste em a intalação  acessar dados restritos que afetaram o sistema signif
 Permissões especiais:
 Consiste em uma permissao que so pode ser dada pelo fabricante original do sistema operacional.
 
-PRINCIPAIS PERMISSÕES PADRÕES:
+<h3>PRINCIPAIS PERMISSÕES PADRÕES:</h3>
+
 ````
 ACCESS_FINE_LOCATION - Permite que a aplicação mostre o localização exata com base nos provedores de local disponivel.
 ````
@@ -63,7 +64,7 @@ ACTION_PLAY - É uma intent que permite a reprodução da midia enviada.
 
 Sensores são recursos de um dispositivo que detectam tipos de estímulos específicos e retornam um resultado que pode ou não desencadear uma ação a depender do tipo de estímulo e se o programa que solicitou o sensor determinou uma consequência ou apenas a visualização.
 
-CATEGORIAS DE SENSORES:
+<h3>CATEGORIAS DE SENSORES:</h3>
 
 Os sensores compatíveis com Android são divididos em 3 categorias principais sendo elas:
 
@@ -81,7 +82,7 @@ Sensores de posição – Esses sensores monitoram a posição física do dispos
 
 Como explicado nos 1.1, o acelerômetro retorna dados tipo float para a força da aceleração e o sensor de campo geomagnético também retorna dados dos 3 eixos, x, y e z, mas em referência a intensidade da proximidade do dispositivo em comparação a um campo magnético, no caso do exemplo das ligações eletrônicas, a pessoa.
 
-SENSORES DE MOVIMENTO:
+<h3>SENSORES DE MOVIMENTO:</h3>
 
 ````
 TYPE_ACCELEROMETER baseado em hardware, utiliza o acelerômetro, retornando a força da aceleração nos 3 eixos incluindo a força da gravidade. Comumente utilizado para detectar movimentos de rotação, giro, inclinação e vibração.
@@ -99,7 +100,8 @@ TYPE_LINEAR_ACCELERATION baseado em software ou hardware, utiliza o acelerômetr
 TYPE_ROTATION_VECTOR baseado em software ou hardware, utiliza o giroscópio, retornado a rotação do dispositivo nos 3 eixos em forma de vetor.
 ````
 
-SENSORES AMBIENTAIS:
+<h3>SENSORES AMBIENTAIS:</h3>
+
 ````
 TYPE_AMBIENT_TEMPERATURE baseado em hardware, utiliza o termômetro, retornando a temperatura do ambiente em graus Celsius.
 ````
@@ -115,7 +117,8 @@ TYPE_RELATIVE_HUMIDITY baseado em hardware, mede a umidade relativa do ar em por
 ````
 TYPE_TEMPERATURE baseado em hardware, utiliza o termômetro, retornando a temperatura da CPU do dispositivo em graus Celsius. Importante ressaltar que esse sensor foi substituído pelo TYPE_AMBIENT_TEMPERATURE no API 14 do Android.
 ````
-SENSORES DE POSIÇÃO:
+<h3>SENSORES DE POSIÇÃO:</h3>
+
 ````
 TYPE_MAGNETIC_FIELD baseado em hardware, utiliza o sensor de campo geomagnético para medir o campo geomagnético do ambiente nos 3 eixos e criar uma bussola. Retorna o valor em μT(micro-Tesla), unidade de medida utilizada para densidade de fluxo magnético.
 ````
@@ -124,8 +127,8 @@ TYPE_ORIENTATION baseado em software, mede os graus de rotação nos 3 eixos e d
 ````
 ````
 TYPE_PROXIMITY baseado em hardware, utiliza o sensor de campo geomagnético, mede a proximidade da tela do dispositivo em comparação a um campo magnético, objeto. Esse sensor é comumente utilizado para detectar se o smartphone está próximo ao ouvido de uma pessoa durante uma ligação e a deligar a tela.
+
 ````
-CONCLUSÃO
 CONCLUSÃO
 
 Neste trabalho foi apresentado a importância das permissões para utilização dos sensores compatíveis com Android, mas o principal objetivo foi listar e explicar a finalidade de cada tipo de permissão e sensor, além de exemplificar com usos cotidianos que se tornaram tão comuns que podem passar despercebido.
