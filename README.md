@@ -1,6 +1,6 @@
 # Trabalho de sensores e permissoes 
 
-<h1>INTRODUÇÃO</h1>
+<h1><center>INTRODUÇÃO</center></h1>
 
 As permissões foram criadas para garantir a segurança do usuário e evitar que aplicativos maliciosos tivessem acesso fácil a sensores com potencial de colocar informações pessoais em perigo, a localização, um dos sensores mais utilizados é um ótimo exemplo da razão pelo qual é essencial que existam permissões, já que a facilidade de acesso a uma informação com esse grau de sigilo poderia resultar em diversos problemas.
 Este trabalho, além de ter o objetivo de ressaltar essa importância, também tem a finalidade de apresentar as principais permissões e sensores disponíveis para Android, além dos tipos de retorno para cada sensor e lista das Actions utilizadas para cada permissão.
@@ -44,7 +44,8 @@ READ_CONTACTS - Permite que a aplicação tenha acesso aos seus contatos, mostra
 ````
 CALL_PHONE - Permite que a aplicação reconheça um numero de telefone e te direcione para o aplicativo telefone para fazer uma ligação.
 ````
-USO EM INTENTS IMPLICITAS PRINCIPAIS: 
+<h3> USO EM INTENTS IMPLICITAS PRINCIPAIS: </h3>
+
 ````
 ACTION_VIEW - É uma intent aonde é usada para abrir/exibir dados, geralmente usada para abrir uma url.
 ````
