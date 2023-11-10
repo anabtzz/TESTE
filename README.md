@@ -23,7 +23,8 @@ Consiste em a instalaçao obter acesso limitado a dados restritos ou execute aç
 Permissões de assinatura:
 Consiste no sistema do celular dar uma permissao a um aplicativo se ele for pertencente ao mesmo fabricante do aplicativo ou sistema operacional.
 
-1.4Permissões de execução:
+1.4
+Permissões de execução:
 Consiste em a intalação  acessar dados restritos que afetaram o sistema significativamente e outros apps.
 
 1.5
