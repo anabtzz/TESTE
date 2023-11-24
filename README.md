@@ -159,50 +159,56 @@ https://developer.android.com/reference/android/content/Intent
 
 <h3>Imports dos sensores: </h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 17](https://github.com/anabtzz/TESTE/assets/128055760/c45d9f89-a6c8-47b7-817a-00fcafdc3bd3)
+![imposrts sensores](https://github.com/anabtzz/TESTE/assets/128055760/17d357c9-6c22-496d-be9e-981dff844e15)
 
 <h3>Variaveis:</h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 17 (1)](https://github.com/anabtzz/TESTE/assets/128055760/550cf67a-0adb-43a8-9a21-96615d03b7e5)
+![variaveis](https://github.com/anabtzz/TESTE/assets/128055760/b41a684b-272a-432e-8673-403dfba6f7d8)
 
 <h3>Acesando e verificando permissão para acessar o acelerometro no manisfesto:</h3>
-![WhatsApp Image 2023-11-23 at 21 37 18](https://github.com/anabtzz/TESTE/assets/128055760/e5f46a80-ccd2-4691-85f3-d158b50ee9eb)
- 
+
+![acelerometro manifesto](https://github.com/anabtzz/TESTE/assets/128055760/45401c63-72a1-4a4a-a700-97b3c3e19b0d)
+
 <h3>onPause só para economizar processamento onrequestresult verifica se o usuario deu a permissão para abrir a camera:</h3>
-![WhatsApp Image 2023-11-23 at 21 37 18 (1)](https://github.com/anabtzz/TESTE/assets/128055760/0d20370f-5e03-4021-9c3e-d068d1914288)
+
+![onPause](https://github.com/anabtzz/TESTE/assets/128055760/91bc6dce-aaf1-409a-b070-cd76b0364b05)
 
 <h3>O calculo da aceleração + calculo do intervalo entre a ultima movimentação e a atul para não abrir a camera toda hora:
 COMENTADO </h3>
-![WhatsApp Image 2023-11-23 at 21 37 18 (2)](https://github.com/anabtzz/TESTE/assets/128055760/3da43b33-3354-4861-bf23-5492a5707365)
+
+![calculo aceleração e intervalo](https://github.com/anabtzz/TESTE/assets/128055760/2bb47eff-f0a6-45d7-8ea9-efdadffcad31)
+
 
 <h3>Abrir a camera:</h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 19](https://github.com/anabtzz/TESTE/assets/128055760/b07b37e3-58f7-41db-a818-8f67c6644c8b)
+![abrir camera](https://github.com/anabtzz/TESTE/assets/128055760/ef07e68d-03a9-4ef9-8cf4-94c686f9cc44)
 
 <h3>Imports:</h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 19 (1)](https://github.com/anabtzz/TESTE/assets/128055760/8218d988-e92e-4591-bbd6-08d90c08ab58)
+![imports](https://github.com/anabtzz/TESTE/assets/128055760/4766fdcd-cf1d-47b0-8465-fdd85b1e1ff8)
 
 <h3>Variaves: </h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 19 (2)](https://github.com/anabtzz/TESTE/assets/128055760/3c98c1f4-42e1-4356-9d92-b81270ca6956)
+![variaveis 1](https://github.com/anabtzz/TESTE/assets/128055760/ca79680a-fdb3-4251-92ac-0d8cd3573a9a)
 
 <h3>locationManager para acesar o serviço de localização:</h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 19 (3)](https://github.com/anabtzz/TESTE/assets/128055760/0f08845a-04ac-466b-9ad7-073534b9b8c0)
+![locationManeger](https://github.com/anabtzz/TESTE/assets/128055760/d027819f-7122-44b8-9c46-88341613f819)
 
 <h3>LocationManager para acessar o serviço de localizaçã, onStart para quando a activity for colocada em primerio plano ativar o checargps que pede para ligar a localização:</h3> 
-![WhatsApp Image 2023-11-23 at 21 37 20](https://github.com/anabtzz/TESTE/assets/128055760/87ed61a3-8550-43d4-a84f-eb375b81c6b5)
+
+![onStart](https://github.com/anabtzz/TESTE/assets/128055760/cc5eeb9f-6883-4b83-b34b-e63c7adb7190)
 
 <h3>checarpermissao verifica se a permissao de loc fine foi concedida no manifesto e pelo usuario, se nao tiver sido ele solicita o acesso a localização, pegarloc faz a mesma coisa mas tbm com a coast loc, location loc pega a localização do usuario e armazena em 2 variaveis(latitude, longitude):</h3>
- ![WhatsApp Image 2023-11-23 at 21 37 20 (1)](https://github.com/anabtzz/TESTE/assets/128055760/7326e55f-aed8-4de3-93db-0f9e2b5efd2d)
+
+![locationloc](https://github.com/anabtzz/TESTE/assets/128055760/db9b3bb7-5dd6-4182-8ef4-bc2daf4427fb)
+
 
 <h3>islocationenabled - verifica se algum provedor de localização do dispositivo ta ligado, locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER): verifica se o provedor de localização GPS ta ligado, locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER): verifica se o provedor de localização por rede ta ligado. abrirMaps abre o google maps com o parametro de pesquisa da latitude e longitude do usuario. o onrequestpermissionsresult é uma resposta para a caixa de dialogo que solicita a permissão de acesso a localização, se for permitido requestcode == request_location_permission todo o processo de pegar loc é feito, senao aviso:</h3>
-![WhatsApp Image 2023-11-23 at 21 37 20 (2)](https://github.com/anabtzz/TESTE/assets/128055760/5cdcbe18-e8fa-4e0e-9c9d-c2a1100c2217)
+
+![islocationenabled](https://github.com/anabtzz/TESTE/assets/128055760/34dd4bd2-3bf8-4355-8a33-dd38ff59cb13)
 
 <h3>Coments:</h3>
 
-![WhatsApp Image 2023-11-23 at 21 37 20 (3)](https://github.com/anabtzz/TESTE/assets/128055760/c7cc7dcf-c982-41c0-915c-3bcfd0a68291)
-
- 
+![coments](https://github.com/anabtzz/TESTE/assets/128055760/c460de5b-1e80-44db-b465-dfab90b7c05b)
 
