@@ -154,9 +154,11 @@ https://stackoverflow.com/questions/73909410/manage-external-storage-vs-write-ex
 https://developer.android.com/reference/android/content/Intent
 
 Imports dos sensores: 
+
 ![WhatsApp Image 2023-11-23 at 21 37 17](https://github.com/anabtzz/TESTE/assets/128055760/c45d9f89-a6c8-47b7-817a-00fcafdc3bd3)
 
 Variaveis:
+
 ![WhatsApp Image 2023-11-23 at 21 37 17 (1)](https://github.com/anabtzz/TESTE/assets/128055760/550cf67a-0adb-43a8-9a21-96615d03b7e5)
 
 Acesando e verificando permissão para acessar o acelerometro no manisfesto:
@@ -170,15 +172,19 @@ COMENTADO
 ![WhatsApp Image 2023-11-23 at 21 37 18 (2)](https://github.com/anabtzz/TESTE/assets/128055760/3da43b33-3354-4861-bf23-5492a5707365)
 
 Abrir a camera:
+
 ![WhatsApp Image 2023-11-23 at 21 37 19](https://github.com/anabtzz/TESTE/assets/128055760/b07b37e3-58f7-41db-a818-8f67c6644c8b)
 
 Imports:
+
 ![WhatsApp Image 2023-11-23 at 21 37 19 (1)](https://github.com/anabtzz/TESTE/assets/128055760/8218d988-e92e-4591-bbd6-08d90c08ab58)
 
 Variaves: 
+
 ![WhatsApp Image 2023-11-23 at 21 37 19 (2)](https://github.com/anabtzz/TESTE/assets/128055760/3c98c1f4-42e1-4356-9d92-b81270ca6956)
 
 locationManager para acesar o serviço de localização: 
+
 ![WhatsApp Image 2023-11-23 at 21 37 19 (3)](https://github.com/anabtzz/TESTE/assets/128055760/0f08845a-04ac-466b-9ad7-073534b9b8c0)
 
 LocationManager para acessar o serviço de localizaçã, onStart para quando a activity for colocada em primerio plano ativar o checargps que pede para ligar a localização: 
@@ -191,6 +197,7 @@ islocationenabled - verifica se algum provedor de localização do dispositivo t
 ![WhatsApp Image 2023-11-23 at 21 37 20 (2)](https://github.com/anabtzz/TESTE/assets/128055760/5cdcbe18-e8fa-4e0e-9c9d-c2a1100c2217)
 
 Coments:
+
 ![WhatsApp Image 2023-11-23 at 21 37 20 (3)](https://github.com/anabtzz/TESTE/assets/128055760/c7cc7dcf-c982-41c0-915c-3bcfd0a68291)
 
  
