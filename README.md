@@ -155,7 +155,7 @@ https://developer.android.com/reference/android/content/Intent
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-<h1><center>ATUALIZAÇÃO DO APLICATIVO COM SENSORES</center></h1>
+<h2><center>ATUALIZAÇÃO DO APLICATIVO COM SENSORES</center></h2>
 
 <h3>Imports dos sensores: </h3>
 
@@ -204,7 +204,13 @@ COMENTADO </h3>
 ![locationloc](https://github.com/anabtzz/TESTE/assets/128055760/db9b3bb7-5dd6-4182-8ef4-bc2daf4427fb)
 
 
-<h3>islocationenabled - verifica se algum provedor de localização do dispositivo ta ligado, locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER): verifica se o provedor de localização GPS ta ligado, locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER): verifica se o provedor de localização por rede ta ligado. abrirMaps abre o google maps com o parametro de pesquisa da latitude e longitude do usuario. o onrequestpermissionsresult é uma resposta para a caixa de dialogo que solicita a permissão de acesso a localização, se for permitido requestcode == request_location_permission todo o processo de pegar loc é feito, senao aviso:</h3>
+<h3>islocationenabled - verifica se algum provedor de localização do dispositivo ta ligado.
+  
+locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER): verifica se o provedor de localização GPS ta ligado.
+
+locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER): verifica se o provedor de localização por rede ta ligado.
+
+abrirMaps abre o google maps com o parametro de pesquisa da latitude e longitude do usuario. O onrequestpermissionsresult é uma resposta para a caixa de dialogo que solicita a permissão de acesso a localização, se for permitido requestcode == request_location_permission todo o processo de pegar loc é feito, senão aparece um aviso:</h3>
 
 ![islocationenabled](https://github.com/anabtzz/TESTE/assets/128055760/34dd4bd2-3bf8-4355-8a33-dd38ff59cb13)
 
